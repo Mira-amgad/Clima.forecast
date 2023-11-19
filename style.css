@@ -1,0 +1,88 @@
+body {
+  background-color: #f5f2fb;
+}
+
+.Container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 60px 80px;
+  background-color: white;
+  box-shadow: 0 30px 50px rgba(30, 50, 60, 0.8);
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  border-bottom: 1px solid #f5f2fb;
+  padding: 0 0 30px 0;
+}
+a {
+  color: #885df1;
+}
+main {
+  padding: 30px 0;
+}
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+.form-input {
+  background-color: #f5f2fb;
+  border-radius: 5px;
+  border: none;
+  width: 80%;
+  padding: 15px;
+  font-size: 16px;
+}
+.form-button {
+  background-color: #885df1;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.city {
+  font-size: 38px;
+  line-height: 40px;
+  margin: 0;
+  display: block;
+}
+.details {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(39, 33, 66, 0.4);
+  font-weight: 500;
+  line-height: 24px;
+}
+.details strong {
+  color: #f65282;
+}
+#humidity {
+  color: #f65282;
+}
+.temperature {
+  display: flex;
+  font-size: 20px;
+}
+.weather-app-icon {
+  width: 88px;
+  height: 88px;
+}
+.value {
+  font-size: 70px;
+  line-height: 88px;
+  font-weight: bold;
+}
+.unit {
+  font-size: 28px;
+  margin-top: 6px;
+}
+footer {
+  border-top: 1px solid #f5f2fb;
+  padding: 30px 00;
+  text-align: center;
+  font-size: 10px;
+  opacity: 0.9;
+}

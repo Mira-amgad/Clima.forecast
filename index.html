@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clima</title>
+
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,700;1,800&family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="Container">
+      <header>
+        <form class="form" id="form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="form-input"
+            id="form-input"
+          />
+          <input type="submit" placeholder="search" class="form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="data">
+          <div>
+            <h1 class="city" id="city">Cairo</h1>
+
+            <p class="details">
+              <span id="time">21:04</span> ,
+              <span class="description" id="description">clouds</span> <br />
+              Humidity:
+              <span class="humidity" id="humidity"> <strong>85</strong></span
+              ><strong>%</strong>, Wind:
+              <strong><span class="Wind" id="wind">5.66</span>km/h</strong>
+            </p>
+          </div>
+          <div class="temperature">
+            <div id="icon"></div>
+            <div class="value" id="value">10</div>
+            <div class="unit">°C</div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Mira-amgad" target="_blank">Mira Amgad</a> ,
+        is open-sourced on
+        <a href="https://github.com/Mira-amgad/Clima" target="_blank">GitHub </a
+        >and hosted on
+        <a href="https://clima-application.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
