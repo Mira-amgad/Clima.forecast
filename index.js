@@ -52,3 +52,28 @@ function submit(event) {
 let searchForm = document.querySelector("#form");
 searchForm.addEventListener("submit", submit);
 Search("Cairo");
+
+function weatherForecast() {
+  let forecast = document.querySelector("#forecast");
+  let days = ["Mon", "Tue", "Wed", "Thur", "Fri"];
+  let forecastHtml = "";
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+      <div class="weather-forecast-day">
+        <div class="weather-forecast-date">${day}</div>
+        <div class="weather-forecast-icon">🌤️</div>
+        <div class="weather-forecast-temperatures">
+          <div class="weather-forecast-temperature">
+            <strong>15º</strong>
+          </div>
+          <div class="weather-forecast-temperature">9º</div>
+        </div>
+      </div>
+    `;
+  });
+
+  forecast.innerHTML = forecastHtml;
+}
+weatherForecast();
