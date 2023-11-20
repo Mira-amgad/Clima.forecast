@@ -89,7 +89,6 @@ footer {
 #forecast {
   margin-top: 20px;
   color: #000000;
-
   margin-top: 30px;
   display: flex;
   justify-content: space-around;
@@ -99,19 +98,14 @@ footer {
   opacity: 0.5;
   text-align: center;
 }
-.weather-forecast-temperature {
-  font-size: 12px;
-  display: flex;
-}
-.min {
-  opacity: 0.5;
-}
+
 .weather-forecast-temperatures {
-  display: flex;
   margin-top: 10px;
+  display: flex;
 }
 .weather-forecast-temperature {
   padding: 0 5px;
+  font-size: 12px;
 }
 .weather-forecast-icon {
   text-align: center;
