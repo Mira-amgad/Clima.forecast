@@ -86,3 +86,17 @@ footer {
   font-size: 10px;
   opacity: 0.9;
 }
+.weather-forecast {
+  margin-top: 20px;
+  color: #000000;
+}
+.weather-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forecast-temperature {
+  font-size: 12px;
+}
+.min {
+  opacity: 0.5;
+}

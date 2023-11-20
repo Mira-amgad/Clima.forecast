@@ -12,7 +12,7 @@ function updateWeather(response) {
   wind.innerHTML = response.data.wind.speed;
 
   let now = new Date();
-  let hours = now.getDate();
+  let hours = now.getHours();
   let min = now.getMinutes();
   if (min < 10) {
     min = `0${min}`;
